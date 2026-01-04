@@ -10,13 +10,16 @@ export function Footer() {
         </p>
         <div className="flex gap-4">
           <a
-            href="https://github.com/sajidali"
+            href="https://www.linkedin.com/in/sajidali-dev"
             className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <Github className="w-5 h-5" />
+            <Linkedin className="w-5 h-5" />
           </a>
+
           <a
-            href="www.linkedin.com/in/sajidali-dev"
+            href="https://www.linkedin.com/in/sajidali-dev"
             className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400"
           >
             <Linkedin className="w-5 h-5" />

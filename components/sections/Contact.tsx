@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import ContactCard from "../ui/ContactCard";
 import SectionTitle from "../ui/SectionTitle";
-import { Mail, } from "lucide-react";
+import { Mail } from "lucide-react";
 import { Linkedin } from "lucide-react";
 export default function Contact() {
   return (
@@ -14,9 +14,11 @@ export default function Contact() {
           viewport={{ once: true }}
         >
           <p className="text-xl text-slate-600 dark:text-slate-400 mb-8 leading-relaxed">
-            I'm always interested in hearing about new projects and opportunities.
+            I'm always interested in hearing about new projects and
+            opportunities.
             <br />
-            Whether you have a question or just want to say hi, feel free to reach out!
+            Whether you have a question or just want to say hi, feel free to
+            reach out!
           </p>
           <div className="flex flex-wrap items-center justify-center gap-6">
             <ContactCard
@@ -29,7 +31,7 @@ export default function Contact() {
               icon={<Linkedin />}
               title="LinkedIn"
               value="Connect with me"
-              link="www.linkedin.com/in/sajidali-dev"
+              link="https://www.linkedin.com/in/sajidali-dev"
             />
           </div>
         </motion.div>

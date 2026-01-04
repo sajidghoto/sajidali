@@ -76,7 +76,7 @@ export default function Hero() {
                 label="GitHub"
               />
               <SocialLink
-                href="www.linkedin.com/in/sajidali-dev"
+                href="https://www.linkedin.com/in/sajidali-dev"
                 icon={<Linkedin />}
                 label="LinkedIn"
               />
