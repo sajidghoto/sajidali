@@ -4,26 +4,44 @@ import ProjectCard from "../ui/ProjectCard";
 export default function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-featured e-commerce platform with product catalog, shopping cart, and checkout flow. Built with React, Tailwind CSS, and modern animations.',
-      tech: ['React', 'Tailwind CSS', 'React Router', 'Framer Motion'],
-      link: 'https://ecom-2-teal.vercel.app/',
-      gradient: 'from-blue-500 to-cyan-500'
+      title: "Applywise Web Application",
+      description:
+        "Full-stack university counseling platform allowing students to discover, compare, and apply to universities worldwide. Features automated application tracking, wishlist management, and personalized recommendations. Backend in Next.js with Prisma & PostgreSQL; frontend with React and Tailwind CSS.",
+      tech: [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Prisma",
+        "PostgreSQL",
+        "TypeScript",
+      ],
+      link: "#", // Replace with live demo if available
+      gradient: "from-indigo-500 to-blue-500",
     },
     {
-      title: 'Shopping Cart Application',
-      description: 'IBM Capstone Project featuring dynamic cart management with Redux state management and RESTful API integration for real-time product data.',
-      tech: ['React', 'Redux', 'REST API', 'JavaScript'],
-      link: 'https://e-planting-zqnh.vercel.app/',
-      gradient: 'from-purple-500 to-pink-500'
+      title: "E-Commerce Platform",
+      description:
+        "Full-featured e-commerce platform with product catalog, shopping cart, and checkout flow. Built with React, Tailwind CSS, and modern animations.",
+      tech: ["React", "Tailwind CSS", "React Router", "Framer Motion"],
+      link: "https://ecom-2-teal.vercel.app/",
+      gradient: "from-blue-500 to-cyan-500",
     },
     {
-      title: 'Full-Stack SaaS Platform',
-      description: 'Enterprise-grade SaaS application with authentication, role-based access, and real-time data synchronization using Next.js and PostgreSQL.',
-      tech: ['Next.js', 'PostgreSQL', 'Prisma', 'TypeScript'],
-      link: '#',
-      gradient: 'from-orange-500 to-red-500'
-    }
+      title: "Shopping Cart Application",
+      description:
+        "IBM Capstone Project featuring dynamic cart management with Redux state management and RESTful API integration for real-time product data.",
+      tech: ["React", "Redux", "REST API", "JavaScript"],
+      link: "https://e-planting-zqnh.vercel.app/",
+      gradient: "from-purple-500 to-pink-500",
+    },
+    {
+      title: "Full-Stack SaaS (Infirix ERP)",
+      description:
+        "Enterprise-grade SaaS application with authentication, role-based access, and real-time data synchronization using Next.js and PostgreSQL.",
+      tech: ["Next.js", "PostgreSQL", "Prisma", "TypeScript"],
+      link: "#",
+      gradient: "from-orange-500 to-red-500",
+    },
   ];
 
   return (
