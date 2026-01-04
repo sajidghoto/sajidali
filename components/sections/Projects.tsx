@@ -6,7 +6,7 @@ export default function Projects() {
     {
       title: "Applywise Web Application",
       description:
-        "Full-stack university counseling platform allowing students to discover, compare, and apply to universities worldwide. Features automated application tracking, wishlist management, and personalized recommendations. Backend in Next.js with Prisma & PostgreSQL; frontend with React and Tailwind CSS.",
+        "University counseling platform with application tracking, wishlist management, and personalized recommendations. Full-stack with Next.js, React, Prisma & PostgreSQL.",
       tech: [
         "Next.js",
         "React",
@@ -15,8 +15,16 @@ export default function Projects() {
         "PostgreSQL",
         "TypeScript",
       ],
-      link: "#", // Replace with live demo if available
+      link: "https://www.applywise.io/",
       gradient: "from-indigo-500 to-blue-500",
+    },
+    {
+      title: "Data Visualization Tool",
+      description:
+        "Python-based tool for cleaning CSV/Excel data and generating high-quality, publication-ready visualizations.",
+      tech: ["Python", "Pandas", "Matplotlib", "Seaborn","FastApi"],
+      link: "https://github.com/sajidghoto/data-visualizer",
+      gradient: "from-emerald-500 to-lime-500",
     },
     {
       title: "E-Commerce Platform",

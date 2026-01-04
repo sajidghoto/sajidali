@@ -12,15 +12,6 @@ export function Footer() {
           <a
             href="https://www.linkedin.com/in/sajidali-dev"
             className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Linkedin className="w-5 h-5" />
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/sajidali-dev"
-            className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400"
           >
             <Linkedin className="w-5 h-5" />
           </a>
