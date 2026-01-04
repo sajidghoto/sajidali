@@ -71,7 +71,7 @@ export default function Hero() {
               className="flex items-center justify-center gap-6 mt-12"
             >
               <SocialLink
-                href="https://github.com/sajidali"
+                href="https://github.com/sajidghoto"
                 icon={<Github />}
                 label="GitHub"
               />
